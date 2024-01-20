@@ -1,0 +1,13 @@
+9. Sum of Odd Numbers (Basic Syntax, Conditional Statements and Loops)
+Видео: https://youtu.be/kouRiwgX2l4
+Решение: https://pastebin.com/P38mhmdi
+
+4. Time After 30 Minutes (Basic Syntax, Conditional Statements and Loops)
+Видео: https://youtu.be/s_1ObG7HQHM
+Решение: https://pastebin.com/quuhcsTe
+
+5. Messages (Data Types and Variables - More Exercises)
+Видео: https://youtu.be/fzg7eWRZdE0
+
+1. Data Type Finder (Data Types and Variables - More Exercises)
+Видео: https://youtu.be/vlDS4DD1Q4s
