@@ -1,8 +1,8 @@
-9. Sum of Odd Numbers (Basic Syntax, Conditional Statements and Loops)
+9. Sum of Odd Numbers (Basic Syntax, Conditional Statements and Loops - Lab)
 Видео: https://youtu.be/kouRiwgX2l4
 Решение: https://pastebin.com/P38mhmdi
 
-4. Time After 30 Minutes (Basic Syntax, Conditional Statements and Loops)
+4. Time After 30 Minutes (Basic Syntax, Conditional Statements and Loops - Lab)
 Видео: https://youtu.be/s_1ObG7HQHM
 Решение: https://pastebin.com/quuhcsTe
 
@@ -11,3 +11,24 @@
 
 1. Data Type Finder (Data Types and Variables - More Exercises)
 Видео: https://youtu.be/vlDS4DD1Q4s
+
+09. Centuries to Minutes (Data Types and Variables - Lab): 
+Видео: https://youtu.be/l0c6sSO3Hwg
+решение: https://pastebin.com/u6Tr5Tb0
+
+10. Special Numbers (Data Types and Variables - Lab)
+Видео: https://youtu.be/wINNgD0G7PM
+Решение: https://pastebin.com/SaDeHJ7Z
+
+4. Town Info (Data Types and Variables - Lab)
+Видео: https://youtu.be/T1ZFFxvuqR8
+Решение: https://pastebin.com/5T6VrxFY
+
+7. Water Overflow (Data Types and Variables - Exercise)
+Видео: https://youtu.be/bMZkPePJ1Dw
+
+11. Snowballs (Data Types and Variables - Exercise)
+Видео: https://youtu.be/2fzK6GqGbkg
+
+09. Padawan Equipment (Basic Syntax, Conditional Statements and Loops - Exercise)
+Видео: https://youtu.be/6--jkhQiI3c
