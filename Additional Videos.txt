@@ -36,3 +36,7 @@
 5. Even and Odd Subtraction (Arrays - Lab)
 видео: https://youtu.be/kSyL0JrjO98
 решение: https://pastebin.com/kyGYg9UH
+
+6. Equal Arrays (Arrays - Lab)
+видео: https://www.youtube.com/watch?v=IZ_HXnMrjns
+решение: https://pastebin.com/uZ01U3hH
