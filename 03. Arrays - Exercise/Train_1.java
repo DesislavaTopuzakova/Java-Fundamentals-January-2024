@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Train_01 {
+public class Train_1 {
 
     public static void main(String[] args) {
 
