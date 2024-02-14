@@ -30,9 +30,9 @@
 
 
 ### Четене на масив от конзолата
-1. Масив от текстове: **String[] stringArr = scanner.nextLine().split("\\s+");**
-2. Масив от цели числа: **int[] integerArr = Arrays.stream(scanner.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();**
-3. Масив от дробни числа: **double[] doubleArr = Arrays.stream(scanner.nextLine().split("\\s+")).mapToDouble(Double::parseDouble).toArray();**
+1. Масив от текстове: **String[] stringArr = scanner.nextLine().split(" ");**
+2. Масив от цели числа: **int[] integerArr = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();**
+3. Масив от дробни числа: **double[] doubleArr = Arrays.stream(scanner.nextLine().split(" ")).mapToDouble(Double::parseDouble).toArray();**
 4. Масив от символи: **char[] charArr = scanner.nextLine().toCharArray();**
 
    
@@ -67,9 +67,9 @@
 ## Lists / Листове
 
 ### Четене на лист от конзолата
-1. Лист от текстове: **List<String> stringList = Аrrays.stream(scanner.nextLine().split("\\s+")).collect(Collectors.toList());**
-2. Лист от цели числа: **List<Integer> integerList = Arrays.stream(scanner.nextLine().split("\\s+")).map(Integer::parseInt).collect(Collectors.toList());**
-3. Лист от дробни числа: **List<Double> doubleList = Arrays.stream(scanner.nextLine().split("\\s+")).map(Double::parseDouble).collect(Collectors.toList());**
+1. Лист от текстове: **List<String> stringList = Аrrays.stream(scanner.nextLine().split(" ")).collect(Collectors.toList());**
+2. Лист от цели числа: **List<Integer> integerList = Arrays.stream(scanner.nextLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());**
+3. Лист от дробни числа: **List<Double> doubleList = Arrays.stream(scanner.nextLine().split(" ")).map(Double::parseDouble).collect(Collectors.toList());**
 
 ###  Методи
 1. **integerList.get(index)** – връща елемента на позицията (index), подадена като аргумент в скобите
