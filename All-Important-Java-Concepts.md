@@ -1,4 +1,4 @@
-# Important Java Concepts
+# Important Java Fundamentals Concepts
 
 ## Data Types / Типове данни
 
