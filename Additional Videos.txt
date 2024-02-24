@@ -43,3 +43,7 @@
 6. Equal Arrays (Arrays - Lab)
 видео: https://www.youtube.com/watch?v=IZ_HXnMrjns
 решение: https://pastebin.com/uZ01U3hH
+
+3. Big Factorial (Objects and Classes - Lab)
+видео: https://youtu.be/wI5K4rdmEew
+решение: https://pastebin.com/S8aKbQ2w
