@@ -1,0 +1,123 @@
+Maps - cheat sheet
+1. Видове
+а) HashMap -> редът на записите не е гарантиран
+b) LinkedHashMap -> редът на поставянето на записите се запазва (първия поставен запис си остава на първо място)
+c) TreeMap -> записите се сортират по ключ в лексикографски ред (ако ключовете са числа в ascending order, ако ключовете са тесктове/символи от a към z)
+2. Основни функционалности
+a) containsKey(key) -> проверява дали в map-а има запис с такъв ключ -> резултат true ако има, false ако няма
+b) containsValue(value) -> проверява дали в map-а има запис с такова value -> резултат true ако има, false ако няма
+c) keySet() -> връща всички ключове от всички записи
+d) entrySet() -> връща всички записи
+e) values() -> връща всички value-та от всички записи
+f) get(ключ) -> връща стойността, която стои срещу дадения ключ
+g) size() -> връща броя на записите
+h) put(key, value) -> добавя запис с дадения ключ и стойност
+i) putIfAbsent(key, value) -> добавя запис с дадения ключ и стойност, ако вече няма запис с такъв ключ
+j) clear() -> премахва всички записи от map-a
+k) remove(key) -> премахва запис с дадения ключ
+l) remove(key, value) -> премахва запис с дадения ключ и стойност
+ 
+ 
+Text Processing - Cheat Sheet
+ String name = "Desislava";
+ 
+        //1. дължина на текст = брой символи
+        System.out.println(name.length());
+ 
+        //2. само главни букви
+        System.out.println(name.toUpperCase());
+ 
+        //3. само с малки букви
+        System.out.println(name.toLowerCase());
+ 
+        //4. в масив от символи: "Desislava" -> ['D', 'e', 's', 'i', 's', 'l', 'a', 'v', 'a']
+        char [] symbols = name.toCharArray();
+ 
+        //5. сравняване на текстове -> true, false
+        System.out.println("Desislava".equals(name));
+        System.out.println("DeSIslava".equalsIgnoreCase(name)); //не прави разлика между малки и главни букви
+ 
+        //6. достъпваме символ от текста
+        //позиция (индекс) = 0 -> първия символ
+        //позиция (индекс) = дължина на текст - 1 -> последния символ
+        System.out.println(name.charAt(0));
+        System.out.println(name.charAt(name.length() - 1));
+ 
+        //7. съдържа определен текст -> true (ако се съдържа), false (ако не се съдържа)
+        System.out.println(name.contains("Des"));
+ 
+        //8. започва с опеределен текст -> true (ако започва), false (ако не започва)
+        System.out.println(name.startsWith("De"));
+ 
+        //9. завършва на определен текст -> true (ако завършва), false (ако не завършва)
+        System.out.println(name.endsWith("lava"));
+ 
+        //10. премахва интервалите в началото и края на текста
+        System.out.println(" Desislava   ".trim());
+ 
+        //11. заменя първото срещане на даден текст / символ
+        name.replace("va", "ta"); //"Desislava" -> "Desislata"
+        name.replace('v', 'r'); //"Desislava" -> "Desislara"
+ 
+        //12. заменя всички срещания на текста
+        name.replaceAll("a", "b"); //"Desislava" -> "Desislbvb"
+ 
+        //13. повтаряме текста даден брой пъти
+        System.out.println(name.repeat(5)); //"DesislavaDesislavaDesislavaDesislavaDesislava"
+ 
+        //14. текст, който е част от друг текст
+        //"Desislava" -> "sislava"
+        System.out.println(name.substring(2));
+        //"Desislava" -> "esis"
+        System.out.println(name.substring(1, 5));
+ 
+        //EXAMPLE
+        String test = "I am enjoying programming";
+        System.out.println(test.substring(5, 13));
+        String text = "enjoying";
+        int index = test.indexOf(text); //индексът на първата буква на текста = 5
+        System.out.println(test.substring(index, index + text.length()));
+ 
+ 
+Chars - cheat sheet
+char letter = 'T';
+        int number = 66;
+ 
+        System.out.println((int) letter); //ascii кода на моя символ
+        System.out.println((char) number); //символа с дадения ascii код
+ 
+        System.out.println('a' + 'c'); //int + int = int
+        System.out.println("" + 'a' + 'c'); //"" + 'a' = "a" + 'c' = "ac"
+ 
+ 
+Regular Expressions - cheat sheet
+ 
+Основен синтаксис:
+[A-Z] - една главна буква (аски код от 65 до 90)
+[a-z] - една малка буква (аски код от 97 до 120)
+[0-9] - една цифра [0-9] (аски код от 48 до 57)
+[A-Za-z] - една буква, която или е малка, или е голяма
+[aeiou] - всички гласни букви
+[^aeiou] - всички съгласни букви
+\w - един символ, който може да е малка буква, главна буква, цифра или _
+\W - един символ, различен от малка буква, главна буква, цифра или _
+\s - един интервал
+\S - един символ, различен от интервал
+\d - една цифра [0-9] (аски код от 48 до 57)
+\D - един символ, различен от цифра
+ 
+Брой на срещанията:
+* -> срещания 0 или безброй много пъти
++ -> срещания 1 или безброй много пъти
+? -> срещания 0 или 1 пъти
+{число} -> срещания {число} пъти
+{число, } -> минимум колко пъти 
+{число1, число2} -> минимум се среща число1 пъти, максимум се среща число2 брой пъти
+() -> обособяваме група
+(?<name> шаблон) -> обособяваме група с име
+ 
+Използване в Java:
+String text = scanner.nextLine();
+String regex = "\\b[A-Z][a-z]+ [A-Z][a-z]+\\b"; //текст на шаблона
+Pattern pattern = Pattern.compile(regex); // шаблон
+Matcher matcher = pattern.matcher(text); //текстовете от променливата text, които отговарят на шаблона
